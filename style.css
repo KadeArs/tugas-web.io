@@ -206,12 +206,15 @@ section {
   opacity: 1;
 }
 
-/* contact section */
 .contact {
   background-image: url("./images/footer.png");
   background-size: cover;
   background-attachment: fixed;
   position: relative;
+}
+
+.contact-card {
+  transform: translateY(50px)
 }
 
 .contact input {
